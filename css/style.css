@@ -254,6 +254,15 @@ footer .footer-grid {
     }
 }
 
+@media(max-width:767px){
+    #sp {
+        text-align: center;
+    }
+    #special {
+        display: none;
+    }
+}
+
 
 @media(max-width:540px) {
 footer {
@@ -276,12 +285,6 @@ footer .footer-grid .card .socials {
 
 .landing .modal {
     width: 100%
-}
-#sp {
-    text-align: center;
-}
-#special {
-    display: none;
 }
 
 }
